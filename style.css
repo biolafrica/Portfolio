@@ -24,13 +24,15 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
-.button_cont img{
+.button_cont img,
+.footer-btn img{
   width: 24px;
   height: 24px;
 
 }
 
-.button_cont button {
+.button_cont button,
+.footer-btn button{
   display: flex;
   align-items: center;
 
@@ -44,7 +46,8 @@ h1,h2,h3,h4,h5,h6{
   color: #78fabd;
 }
 
-.button_cont{
+.button_cont,
+.footer-btn{
   display: flex;
   align-items: center;
   gap: 15px;
@@ -334,6 +337,40 @@ a{
 .mola-container h3,
 .workforce-container h3{
   margin-bottom: 15px;
+}
+
+.footer{
+  margin: 200px auto;
+  text-align: center;
+}
+
+.footer-btn{
+  justify-content: center;
+  margin: 30px auto;
+  gap: 10px;
+  
+}
+.footer h2{
+  margin-bottom: 15px;
+}
+
+.mern{
+  color: #78fabd;
+  font-weight: 600;
+}
+
+.footer-btn a{
+  background-color: black;
+  color: white;
+
+}
+
+.copyright{
+  background-color: black;
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
 }
 
 
