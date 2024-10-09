@@ -6,16 +6,23 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .btn{
-  padding: 10px 15px;
-  border-radius: 8px;
+  padding: 15px 25px;
+  border-radius: 50px;
   display: flex;
   align-items: center;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
   gap: 2px;
+  border: none;
   background-color: white;
   color: black;
   width: fit-content;
+  cursor: pointer;
+  box-sizing: border-box;
 
 }
+
 
 .button_cont img{
   width: 24px;
@@ -222,6 +229,114 @@ a{
 .stack-head-cont{
   margin: 0px 0px 0px 50px;
 }
+
+.Projects{
+  background-color: black;
+  border-radius: 20px;
+  margin: 30px auto;
+  color: white;
+  padding: 150px 50px;
+ 
+}
+
+.project-head-cont{
+  margin-bottom: 20px;
+}
+
+.project-head-cont h5{
+  margin-bottom: 10px;
+
+}
+
+.project-head-cont-btn{
+  display: flex;
+  padding: 2px 2px;
+  background-color: #f5f5f5;
+  width: fit-content;
+  border-radius: 50px;
+  gap: 5px;
+  margin: 30px auto;
+  border: none;
+}
+
+.project-head-cont-btn button{
+  border-radius: 50px;
+}
+
+.blog-container,
+.mola-container,
+.workforce-container{
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 150px 50px;
+  display: flex;
+  align-items: center;
+  gap: 20%;
+  margin-bottom: 30px;
+
+}
+
+.blog-container-right{
+  width: 30%;
+  height: 300px;
+  border: 1px solid red;
+  border-radius: 15px;
+}
+
+.blog-container-left{
+  width: 40%;
+
+}
+
+.blog-container-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  
+}
+
+.sub-stack{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+.sub-stack img{
+  width: 12px;
+  height: 12px;
+  
+}
+
+.sub-stack-javascript,
+.sub-stack-node-js,
+.sub-stack-mongoDB{
+  height: 15px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  gap: 5px;
+  border-radius: 15px;
+  background-color: #f5f5f5;
+  color: black;
+  
+}
+
+.blog-container h5,
+.mola-container h5,
+.workforce-container h5{
+  width: 100%;
+  margin-top: 40px;
+}
+
+.blog-container h3,
+.mola-container h3,
+.workforce-container h3{
+  margin-bottom: 15px;
+}
+
+
 
 @media (max-width: 1024px) {
   h1 {
