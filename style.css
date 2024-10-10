@@ -67,7 +67,6 @@ h1,h2,h3,h4,h5,h6{
 
 }
 
-
 .button_cont img,
 .footer-btn img{
   width: 24px;
@@ -103,7 +102,6 @@ h1,h2,h3,h4,h5,h6{
   margin-top: 80px;
 
 }
-
 
 h1 {
   font-size: 103px;
@@ -153,7 +151,6 @@ body{
 }
 
 .landing {
- 
   background-color: black;
   border-radius: 20px;
   margin: 30px auto;
@@ -162,8 +159,44 @@ body{
 
 }
 
+.blog-landing-image{
+  background-color: black;
+  border-radius: 20px;
+  margin: 30px auto;
+  color: white;
+  padding: 400px 50px 50px 50px;
+}
+
 .black_background{
   background-color: black;
+}
+
+.blog-content{
+  padding: 50px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-content-left{
+  width: 55%;
+}
+
+.blog-content-left h4{
+  margin-bottom: 10px;
+}
+
+.blog-content-left h5 {
+  margin-bottom: 20px;
+}
+
+.blog-content-right{
+  width: 40%;
+}
+
+.blog-content-right img{
+  width: 100%;
+  border-radius: 30px;
+  object-fit: cover;
 }
 
 header{
@@ -181,7 +214,6 @@ header{
   top: 50px;
   background-color: white;
   animation: slideDown 1s ease-out forwards;
-  
 
 }
 
@@ -207,7 +239,6 @@ a{
 .about-me{
   padding: 100px 30px;
 }
-
 
 .about-me-cont{
   display: flex;
@@ -280,6 +311,7 @@ a{
   padding: 20px 10px;
   border-radius: 50px
 }
+
 .stack-head{
   color: #000000A6 ;
   font-weight: 600;
@@ -305,7 +337,6 @@ a{
 
 .project-head-cont h5{
   margin-bottom: 10px;
-
 }
 
 .project-head-cont-btn{
@@ -355,13 +386,13 @@ a{
   
 }
 
-
 .sub-stack{
   display: flex;
   align-items: center;
   gap: 10px;
 
 }
+
 .sub-stack img{
   width: 12px;
   height: 12px;
@@ -407,6 +438,7 @@ a{
   gap: 10px;
   
 }
+
 .footer h2{
   margin-bottom: 15px;
 }
@@ -421,7 +453,6 @@ a{
   color: white;
 
 }
-
 
 .copyright{
   background-color: black;
@@ -481,7 +512,6 @@ a{
     font-size: 14px;
   }
 }
-
 
 @media (max-width: 768px) {
   h1 {
