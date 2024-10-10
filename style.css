@@ -5,6 +5,50 @@ h1,h2,h3,h4,h5,h6{
   padding: 0;
 }
 
+:root{
+
+  --elevate-1:
+    0 1px 3px 1px rgba(0, 0, 0, 0.15),
+    0 1px 2px 0 rgba(0, 0, 0, 0.30);
+  --elevate-2:
+    0 1px 2px 0 rgba(0, 0, 0, 0.30),
+    0 2px 6px 2px rgba(0, 0, 0, 0.15);
+}
+
+.active{
+  box-shadow: var(--elevate-1);
+  padding: 15px 25px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  gap: 2px;
+  border: none;
+  background-color: white;
+  color: black;
+  width: fit-content;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.disable{
+  background-color: transparent;
+  padding: 15px 25px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  gap: 2px;
+  border: none;
+  width: fit-content;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
 .btn{
   padding: 15px 25px;
   border-radius: 50px;
@@ -40,6 +84,11 @@ h1,h2,h3,h4,h5,h6{
 
 .landing h3{
   width: 60%;
+}
+
+.landing h1{
+  animation: slideInFromLeft 1s ease-out forwards;
+  opacity: 0;
 }
 
 .bio-head{
@@ -104,12 +153,17 @@ body{
 }
 
 .landing {
+ 
   background-color: black;
   border-radius: 20px;
   margin: 30px auto;
   color: white;
   padding: 200px 50px;
 
+}
+
+.black_background{
+  background-color: black;
 }
 
 header{
@@ -126,6 +180,9 @@ header{
   left: 30px;
   top: 50px;
   background-color: white;
+  animation: slideDown 1s ease-out forwards;
+  
+
 }
 
 a{
@@ -282,7 +339,6 @@ a{
 .blog-container-right{
   width: 30%;
   height: 300px;
-  border: 1px solid red;
   border-radius: 15px;
 }
 
@@ -298,6 +354,7 @@ a{
   border-radius: 15px;
   
 }
+
 
 .sub-stack{
   display: flex;
@@ -365,6 +422,7 @@ a{
 
 }
 
+
 .copyright{
   background-color: black;
   padding: 20px 30px;
@@ -373,7 +431,30 @@ a{
   color: white;
 }
 
+/*Keyframes for animation*/
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
 
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 
 @media (max-width: 1024px) {
   h1 {
