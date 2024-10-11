@@ -64,6 +64,7 @@ h1,h2,h3,h4,h5,h6{
   width: fit-content;
   cursor: pointer;
   box-sizing: border-box;
+  box-shadow: var(--elevate-1);
 
 }
 
@@ -151,12 +152,23 @@ body{
 }
 
 .landing {
+  background-image: url("./icons/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: black;
   border-radius: 20px;
   margin: 30px auto;
   color: white;
-  padding: 200px 50px;
 
+}
+
+.landing-color{
+  background-color: rgba(0, 0, 0, 85%);
+  border-radius: 20px;
+  margin: 30px auto;
+  color: white;
+  padding: 200px 50px;
 }
 
 .blog-landing-image{
@@ -357,7 +369,6 @@ a{
 .blog-container,
 .mola-container,
 .workforce-container{
-  border: 1px solid white;
   border-radius: 30px;
   padding: 150px 50px;
   display: flex;
@@ -365,6 +376,31 @@ a{
   gap: 20%;
   margin-bottom: 30px;
 
+}
+.project-head-cont-body button{
+  background-color: black;
+  color: white;
+  
+}
+
+.project-head-cont-body img {
+  width: 24px;
+  height: 24px;
+}
+
+.blog-container{
+  background: linear-gradient(139deg, rgb(255, 175, 119) 2.33%, rgb(255, 241, 119) 96.28%);
+  color: black;
+}
+
+.mola-container{
+  background: linear-gradient(139deg, rgb(146, 171, 252) 2.33%, rgb(146, 214, 252) 96.28%);
+  color: black;
+}
+
+.workforce-container{
+  background: linear-gradient(139deg, rgb(186, 128, 230) 2.33%, rgb(230, 128, 220) 96.28%);
+  color: black;
 }
 
 .blog-container-right{
