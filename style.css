@@ -15,6 +15,9 @@ h1,h2,h3,h4,h5,h6{
     0 2px 6px 2px rgba(0, 0, 0, 0.15);
 }
 
+.primary-color {
+  color: #78fabd;
+}
 .active{
   box-shadow: var(--elevate-1);
   padding: 15px 25px;
@@ -171,7 +174,8 @@ body{
 
 }
 
-.landing {
+.landing,
+.blog-landing{
   background-image: url("./icons/background.jpg");
   background-size: cover;
   background-position: center;
@@ -183,7 +187,8 @@ body{
 
 }
 
-.landing-color{
+.landing-color,
+.blog-landing-image{
   background-color: rgba(0, 0, 0, 85%);
   border-radius: 20px;
   margin: 0px auto;
@@ -192,20 +197,17 @@ body{
   
 }
 
-.blog-landing-image{
-  background-color: black;
-  border-radius: 20px;
-  margin: 30px auto;
-  color: white;
-  padding: 400px 50px 50px 50px;
+.blog-landing-image {
+  padding: 250px 50px 50px 50px;
 }
+
 
 .black_background{
   background-color: black;
 }
 
 .blog-content{
-  padding: 50px 50px;
+  padding: 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -654,6 +656,20 @@ a{
 
   }
 
+  .blog-content{
+    flex-direction: column;
+    padding: 50px 20px;
+
+  }
+
+  .blog-content-left{
+    width: 100%;
+  }
+
+  .blog-content-right{
+    display: none;
+  }
+
 
   
 }
@@ -692,8 +708,15 @@ a{
     display: none;
   }
 
-  .landing-color{
+ 
+
+  .landing-color,
+  .blog-landing-image{
     padding: 100px 15px;
+  }
+
+  .blog-landing-image {
+    padding: 250px 30px 30px 30px;
   }
 
   .container{
@@ -739,7 +762,8 @@ a{
   }
 
 
-  .landing{
+  .landing,
+  .blog-landing{
     margin: 5px auto;
   }
 
