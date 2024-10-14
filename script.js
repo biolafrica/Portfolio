@@ -21,7 +21,7 @@ document.querySelectorAll(".js_project_head").forEach((btn)=>{
       molaCont.style.display = "none";
       workforceCont.style.display = 'none';
 
-    } else if(id === "mola"){
+    }else if(id === "mola"){
       molaBtn.classList.add("active");
       workforceBtn.classList.add("disable");
       blogBtn.classList.add('disable');
