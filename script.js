@@ -4,6 +4,8 @@ const workforceBtn = document.querySelector(".js_workforce");
 const blogCont = document.querySelector(".js_blog_container");
 const molaCont = document.querySelector(".js_mola_container");
 const workforceCont = document.querySelector(".js_workforce_container");
+const headerCont = document.querySelector(".js-main-header");
+const subHeaderCont = document.querySelector(".js-small-header");
 
 document.querySelectorAll(".js_project_head").forEach((btn)=>{
   btn.addEventListener('click', (e)=>{
@@ -50,3 +52,24 @@ document.querySelectorAll(".js_project_head").forEach((btn)=>{
   })
 
 })
+
+document.querySelector(".js-hamburger").addEventListener("click", ()=>{
+  headerCont.style.display = "none";
+  subHeaderCont.style.display = "flex"
+})
+
+document.querySelector(".js-close").addEventListener("click", ()=>{
+  headerCont.style.display = "flex";
+  subHeaderCont.style.display = "none"
+})
+
+
+window.addEventListener("resize", ()=>{
+  const screenWidth = window.innerWidth;
+  if(screenWidth > 992){
+    subHeaderCont.style.display = "none";
+    headerCont.style.display = "flex";
+  }
+  
+})
+
