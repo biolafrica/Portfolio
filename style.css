@@ -757,7 +757,8 @@ a{
     width: 90%;
     display: flex;
     justify-content: center;
-    margin: 0px 30px;
+    align-items: center;
+    margin: 0px auto;
     box-sizing: border-box;
 
   }
@@ -881,6 +882,16 @@ a{
     justify-content: center;
 
   }
+
+  .figma{
+    display: none;
+  }
+
+  .about-me {
+    margin: 100px 0px 50px 0px;
+  }
+
+ 
 
 
 }
