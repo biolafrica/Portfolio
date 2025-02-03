@@ -3,10 +3,14 @@
 h1,h2,h3,h4,h5,h6{
   margin: 0;
   padding: 0;
+ 
+}
+
+.dark-color{
+  color: #FFFFFFD9;
 }
 
 :root{
-
   --elevate-1:
     0 1px 3px 1px rgba(0, 0, 0, 0.15),
     0 1px 2px 0 rgba(0, 0, 0, 0.30);
@@ -70,6 +74,7 @@ h1,h2,h3,h4,h5,h6{
   box-shadow: var(--elevate-1);
 
 }
+
 
 .btn:hover,
 .active:hover{
@@ -241,6 +246,7 @@ body{
 
 .blog-content-left h4{
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .blog-content-left h5 {

@@ -6,6 +6,7 @@ const molaCont = document.querySelector(".js_mola_container");
 const workforceCont = document.querySelector(".js_workforce_container");
 const headerCont = document.querySelector(".js-main-header");
 const subHeaderCont = document.querySelector(".js-small-header");
+const footerEl = document.querySelector(".footer_js")
 
 document.querySelectorAll(".js_project_head").forEach((btn)=>{
   btn.addEventListener('click', (e)=>{
@@ -72,4 +73,7 @@ window.addEventListener("resize", ()=>{
   }
   
 })
+
+footerEl.innerHTML = `
+`
 
