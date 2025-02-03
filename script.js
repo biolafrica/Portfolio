@@ -4,8 +4,6 @@ const workforceBtn = document.querySelector(".js_workforce");
 const blogCont = document.querySelector(".js_blog_container");
 const molaCont = document.querySelector(".js_mola_container");
 const workforceCont = document.querySelector(".js_workforce_container");
-const headerCont = document.querySelector(".js-main-header");
-const subHeaderCont = document.querySelector(".js-small-header");
 const footerEl = document.querySelector(".footer_js");
 const headerEl = document.querySelector(".header_js");
 const copyrightEl = document.querySelector(".copyright_js");
@@ -73,6 +71,10 @@ headerEl.innerHTML =
   </div>
 
 `;
+
+const headerCont = document.querySelector(".js-main-header");
+const subHeaderCont = document.querySelector(".js-small-header");
+
 
 copyrightEl.innerHTML = 
 `
