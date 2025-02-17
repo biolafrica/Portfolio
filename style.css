@@ -447,6 +447,10 @@ a{
   color: white;
   
 }
+.blog-content-left h5{
+  white-space: pre-wrap;
+}
+
 
 .project-head-cont-body img {
   width: 24px;
