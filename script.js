@@ -17,7 +17,7 @@ footerEl.innerHTML =
   <h5>Lets Connect and Build Something Great Together.</h5>
   
   <div class="footer-btn">
-    <a href="https://drive.google.com/file/d/1MZeLWNZYkjS5uuqxlUCnSP-5tl6Ibqcm/view?usp=sharing" class="btn" target="_blank">
+    <a href="https://drive.google.com/file/d/1PTmCWwZpgI8EqlE1GkthosEsJOq7lWjl/view?usp=sharing" class="btn" target="_blank">
       <img src="./icons/Document.svg" > Resume
     </a>
     <a href="https://www.linkedin.com/in/abiobaku/" class="btn linkedIn" target="_blank"><img src="./icons/linkedIn 1068.png" alt="https://www.linkedin.com/in/abiobaku/">
